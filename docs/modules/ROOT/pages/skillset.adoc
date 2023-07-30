@@ -1,0 +1,10 @@
+= Skillset to develop and maintain the website
+
+To develop and maintain the website www.fb-brunnenbau.de and all adjacent projects effectively, the following tools are essential:
+
+* Git + Github -> Everything is versioned and hosted on Github (https://github.com/fb-brunnenbau), Github Actions are used for various workflow tasks
+* Docker (no DockerHub) -> Docker is used for local development. No image is published to DockerHub.
+* Asciidoc, Hugo, Antora
+* Bash Scripts, Linux, VMs with Virtualbox and Vagrant) -> Development takes place on top of ubuntu, although Docker should be the only prerequisite. The link:https://github.com/fb-brunnenbau/ide[IDE project] provides a linux development environment inside a Virtualbox. So you can either develop direktly on top of Linux (which makes Docker a requirement) or use the VM (which makes Virtualbox and Vagrant a requirement).
+* Classic Webshosting -> The website is hosed by link://www.all-inkl.com[All-Inkl.com], Login information are stored in Sebastian Sommerfelds Bitwarden Vault
+* The code editor of choise is VSCode and makes use of devcontainers
