@@ -1,0 +1,26 @@
+.idea
+target
+node_modules
+.target
+.vagrant*
+*.log
+*.lock
+yamllint-*
+
+# terraform
+.terraform
+.terraform.lock*
+tfplan
+.bitwarden*
+
+# secrets
+*.token
+*.pass
+*.user
+*.secret
+
+# Antora UI bundle
+src/main/ui-blog/build
+src/main/ui-blog/public
+src/main/ui-docs/build
+src/main/ui-docs/public
